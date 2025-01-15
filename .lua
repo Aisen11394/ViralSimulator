@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NICKI
 
 local Window = Library.CreateLib("Viral Simulator OP", "DarkTheme")
 local Tab = Window:NewTab("Main")
-local Section = Tab:NewSection("LocalPlayer")
+local Section = Tab:NewSection("OP SCRIPTS")
 
 
 Section:NewButton("99999 Spins", "ButtonInfo", function()
