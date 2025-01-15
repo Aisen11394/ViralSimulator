@@ -60,7 +60,6 @@ game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("
 end)
 
 Section:NewButton("Use all codes", "ButtonInfo", function()
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NICKISBAD/Nick-s-Modded-KAVO-Lib/main/Nick'sModdedKavoLib.lua"))()
 local args = {
     [1] = "9and4",
     [2] = "17Frogs",
