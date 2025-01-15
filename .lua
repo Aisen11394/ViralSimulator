@@ -43,7 +43,7 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("WinsGiver"):FireServer(unpack(args))
 end)
 
-Section:NewButton("Inf Fans", "ButtonInfo", function()
+Section:NewButton("Inf Fans (Need Rejoin)", "ButtonInfo", function()
 local args = {
     [1] = math.huge,
 }
