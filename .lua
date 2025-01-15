@@ -51,9 +51,9 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("AddFans"):FireServer(unpack(args))
 end)
 
-Section:NewButton("Inf Gems (Need Rejoin)", "ButtonInfo", function()
+Section:NewButton("999999 Gems", "ButtonInfo", function()
 local args = {
-    [1] = math.huge
+    [1] = 999999
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("GemsGiver"):FireServer(unpack(args))
