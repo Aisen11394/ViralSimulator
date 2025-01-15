@@ -25,7 +25,7 @@ local args = {
         ["Experience"] = 69420,
         ["Model"] = "Octoguy",
         ["Locked"] = false,
-        ["Level"] = math.huge,
+        ["Level"] = 2147483637,
         ["Equipped"] = false,
         ["Big"] = true
     },
