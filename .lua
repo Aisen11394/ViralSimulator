@@ -23,9 +23,9 @@ local args = {
         ["Golden"] = true,
         ["Name"] = "OP_PET",
         ["Experience"] = 69420,
-        ["Model"] = "Octoguy",
+        ["Model"] = "OMG",
         ["Locked"] = false,
-        ["Level"] = 2147483637,
+        ["Level"] = math.huge,
         ["Equipped"] = false,
         ["Big"] = true
     },
