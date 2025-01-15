@@ -59,6 +59,20 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("GemsGiver"):FireServer(unpack(args))
 end)
 
+Section:NewButton("Use all codes", "ButtonInfo", function()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NICKISBAD/Nick-s-Modded-KAVO-Lib/main/Nick'sModdedKavoLib.lua"))()
+local args = {
+    [1] = "9and4",
+    [2] = "17Frogs",
+    [3] = "About13Monkeys",
+    [4] = "Cookies!",
+    [5] = "Jarafrets",
+    [6] = "ThankYou"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("UpdCode"):FireServer(unpack(args))
+end)
+
 Section:NewColorPicker("Select Color", "Color Info", Color3.fromRGB(0,0,0), function(color)
     print(color)
     -- Second argument is the default color
