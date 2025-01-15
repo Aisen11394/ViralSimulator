@@ -45,23 +45,10 @@ end)
 
 Section:NewButton("Inf Fans (Need Rejoin)", "ButtonInfo", function()
 local args = {
-    [1] = math.huge,
+    [1] = math.huge
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("AddFans"):FireServer(unpack(args))
-end)
-
-Section:NewButton("Use all Codes", "ButtonInfo", function()
-local args = {
-    [1] = "9and4"
-    [2] = "17Frogs"
-    [3] = "About13Monkeys"
-    [4] = "Cookies!"
-    [5] = "Jarafrets"
-    [6] = "ThankYou"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("UpdCode"):FireServer(unpack(args))
 end)
 
 Section:NewButton("999999 Gems", "ButtonInfo", function()
