@@ -64,7 +64,6 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("UpdCode"):FireServer(unpack(args))
 end)
 
-
 Section:NewButton("999999 Gems", "ButtonInfo", function()
 local args = {
     [1] = 999999
