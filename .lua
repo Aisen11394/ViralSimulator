@@ -72,6 +72,10 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("UpdCode"):FireServer(unpack(args))
 end)
 
+Section:NewButton("Pet creator OP", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Aisen11394/PetCreator/main/.lua"))()
+end)
+
 Section:NewColorPicker("Select Color", "Color Info", Color3.fromRGB(0,0,0), function(color)
     print(color)
     -- Second argument is the default color
