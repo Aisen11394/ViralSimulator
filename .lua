@@ -51,6 +51,20 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("AddFans"):FireServer(unpack(args))
 end)
 
+Section:NewButton("Use all Codes", "ButtonInfo", function()
+local args = {
+    [1] = "9and4"
+    [2] = "17Frogs"
+    [3] = "About13Monkeys"
+    [4] = "Cookies!"
+    [5] = "Jarafrets"
+    [6] = "ThankYou"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("UpdCode"):FireServer(unpack(args))
+end)
+
+
 Section:NewButton("999999 Gems", "ButtonInfo", function()
 local args = {
     [1] = 999999
