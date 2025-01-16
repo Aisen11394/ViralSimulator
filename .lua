@@ -35,25 +35,25 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("Pets"):WaitForChild("GiveBoughtPet"):FireServer(unpack(args))
 end)
 
-Section:NewButton("Get 9999999999 Wins (Need Rejoin)", "ButtonInfo", function()
+Section:NewButton("Get 999999999999999 Wins (Need Rejoin)", "ButtonInfo", function()
 local args = {
-    [1] = 9999999999
+    [1] = 999999999999999
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("WinsGiver"):FireServer(unpack(args))
 end)
 
-Section:NewButton("Get 9999999999 Fans (Need Rejoin)", "ButtonInfo", function()
+Section:NewButton("Get 999999999999999 Fans (Need Rejoin)", "ButtonInfo", function()
 local args = {
-    [1] = 9999999999
+    [1] = 999999999999999
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("AddFans"):FireServer(unpack(args))
 end)
 
-Section:NewButton("999999 Gems", "ButtonInfo", function()
+Section:NewButton("9999999 Gems", "ButtonInfo", function()
 local args = {
-    [1] = 999999
+    [1] = 9999999
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("GemsGiver"):FireServer(unpack(args))
